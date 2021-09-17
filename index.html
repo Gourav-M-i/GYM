@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .background {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('back.png');
+            background-size: cover;
+            padding: 10vh 8vw;
+        }
+
+        .top-heading {
+            color: rgb(255, 255, 255);
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+            font-weight: bolder;
+            font-size: 40px;
+            margin: 22px 0px;
+        }
+
+        .para {
+            color: white;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .button {
+            display: flex;
+            justify-content: center;
+        }
+
+        .read {
+            text-decoration: none;
+            color: white;
+            background-color: rgb(27, 27, 27);
+            margin: 30px auto;
+            padding: 16px 34px;
+            font-size: 18px;
+            border: 1px solid #666;
+            border-radius: 1px;
+        }
+
+        .read:hover {
+            background-color: white;
+            color: black;
+        }
+
+        .content {
+            padding: 50px 14vw;
+            background-color: rgb(226, 225, 225);
+        }
+
+        .heading {
+            margin: 30px 0px;
+            text-align: center;
+        }
+
+        .para2 {
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .story {
+            background-color: rgb(31, 30, 30);
+            padding: 30px 20px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .about {
+            display: inline;
+            width: 314px;
+            background-color: white;
+            margin: 10px 10px;
+        }
+
+        .image {
+            width: 100%;
+            height: auto;
+        }
+
+        .about h3 {
+            text-align: center;
+            margin: 40px 30px;
+            font-size: 24px;
+        }
+
+        .paragraph {
+            text-align: center;
+            font-size: 17px;
+            margin: 45px 40px;
+            line-height: 1.5;
+        }
+
+        .handle {
+            padding: 40px 11vw;
+        }
+
+        .handle h3 {
+            text-align: center;
+            font-size: 30px;
+            margin: 40px 0px;
+        }
+
+        .para3 {
+            text-align: center;
+            font-size: 23px;
+        }
+
+        .details {
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .contact h3 {
+            text-align: center;
+            font-size: 30px;
+            margin: 20px 0px;
+        }
+
+        .contact {
+            padding: 50px 50px;
+            color: white;
+        }
+
+        .contact p {
+            text-align: center;
+            font-size: 18px;
+            line-height: 1.5;
+        }
+
+        .us {
+            background-color: #2690d4;
+        }
+
+        .us div {
+            text-align: center;
+            margin: 22px 0px;
+            font-size: 18px;
+        }
+
+        .company {
+            background-color: #333;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            padding: 40px 0px;
+            font-size: 20px;
+            flex-wrap: wrap;
+        }
+        footer div a{
+            text-decoration: none;
+            color: rgb(121, 121, 218);
+        }
+        @media screen and (max-width:700px){
+            .details{
+                display: grid;
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="background">
+        <h1 class="top-heading">Welcome to Acme Web Solutions</h1>
+        <div class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo officiis quas, eaque corporis
+            praesentium qui
+            alias cum veniam atque. Autem.
+        </div>
+        <div class="button"><a href="#" class="read">Read more</a></div>
+    </div>
+    <div class="content">
+        <h1 class="heading">Web and Application Development</h1>
+        <div class="para2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium, quidem quos.
+            Consequuntur modi maxime
+            dolores dolor aspernatur nulla voluptate perferendis cumque nesciunt. Est dolorum perspiciatis accusantium
+            eligendi tempore incidunt natus.
+        </div>
+    </div>
+    <div class="story">
+        <div class="about">
+            <img src="web.jpeg" class="image">
+            <h3>Web development</h3>
+            <p class="paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et quasi velit
+                voluptatum cum maiores exercitationem.
+            </p>
+        </div>
+        <div class="about">
+            <img src="mobile.jpeg" class="image">
+            <h3>Mobile applications</h3>
+            <p class="paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et quasi velit
+                voluptatum cum maiores exercitationem.
+            </p>
+        </div>
+        <div class="about">
+            <img src="tech.jpeg" class="image">
+            <h3>Tech marketing</h3>
+            <p class="paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et quasi velit
+                voluptatum cum maiores exercitationem.
+            </p>
+        </div>
+    </div>
+    <div class="handle">
+        <h3>We handle all of your digital needs</h3>
+        <p class="para3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime nam rerum vel earum error
+            fugiat cupiditate, dolore eius! Minus, explicabo.</p>
+    </div>
+    <div class="details">
+        <div class="contact us">
+            <h3>Contact Us</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, suscipit. Rerum ducimus a quod, ut et
+                voluptas obcaecati unde fuga.</p>
+            <div>contact&#64;acmewebsolutions.test</div>
+        </div>
+        <div class="contact company">
+            <h3>About Our Company</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio earum porro deserunt, deleniti, quae
+                facere repudiandae, officiis est exercitationem nobis iusto doloremque! Soluta excepturi in aut suscipit
+                amet temporibus quo?</p>
+        </div>
+    </div>
+    <footer>
+        <div>Acme Web Solutions</div>
+        <div>Project By 
+            <a href="#">Traversy Media</a>
+        </div>
+    </footer>
+</body>
+
+</html>
