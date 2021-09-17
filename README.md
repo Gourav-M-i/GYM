@@ -1,1 +1,1 @@
-# GYM
+# Landing Page
